@@ -1,0 +1,489 @@
+.App {
+    text-align: center;
+  }
+  
+  .App-logo {
+    height: 40vmin;
+    pointer-events: none;
+  }
+  
+  @media (prefers-reduced-motion: no-preference) {
+    .App-logo {
+      animation: App-logo-spin infinite 20s linear;
+    }
+  }
+  
+  .App-header {
+    background-color: #282c34;
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    font-size: calc(10px + 2vmin);
+    color: white;
+  }
+  
+  .App-link {
+    color: #61dafb;
+  }
+  
+  @keyframes App-logo-spin {
+    from {
+      transform: rotate(0deg);
+    }
+    to {
+      transform: rotate(360deg);
+    }
+  }
+  /* css */
+  /* body{
+    background-image  : url("./components/images/bck.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    
+  } */
+  .start-5 {
+    left: 27%!important;
+}
+  body {
+    background: url("./components/images/bg-masthead.jpg");
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    background-size: cover;
+  }
+  .h1{
+    color: white;
+    user-select: none;
+ 
+  }
+  .center{
+    text-align: center;
+    word-wrap: initial;
+  }
+  .nav-item{
+    font-size: 15px;
+    padding: 0px 25px;
+  }
+  .h2{
+    font-size: 30px;
+    color: white;
+  }
+  .bol{
+    font-size: 30px;
+    font-family: emoji;
+    color: rgb(250 255 255);
+    font-weight: 900;
+   
+  }
+  .btn-lg{
+    width: 245px;
+      font-family: arial;
+      height: 50px;
+      border-radius: 17px;
+      font-size: 21px;
+  } 
+  .LoginInput{
+    border-radius: 8px;
+    border: 2px solid #dddfe2;
+    }
+  .LoginInput:hover{
+    box-shadow: black;
+    background-color: #dee5f5;
+  }
+  
+  .divbutton{
+    border: 1px solid #1877f2;
+    color: #fff;
+    border-radius: 8px;
+    text-align: center;
+  }
+  .button:hover{
+    background: #123563;
+    font-weight: 700;
+  }
+  .buttons{
+    padding: 24px 20px;
+    justify-content: end;
+    /* display: contents; */
+  }
+  .buttonsMain{
+    padding: 24px 20px;
+    justify-content: end;
+    display: contents;
+    padding-left: 20px;
+  }
+  .loginBody{
+    border: 1px solid white;
+    padding: 30px 30px 30px 30px;
+    /* width: 50em; */
+  }
+  .loginBody1{
+    border: 1px solid white;
+    padding: 30px 30px 30px 30px;
+    width: 50em;
+  }
+  .start{
+    left: 44%;
+  }
+  .loginBodyi{
+    border: 1px solid white;
+    padding: 5px 5px 5px 5px;
+    color: white;
+    font-size: 30px;
+    background-color: #55787c;
+    /* width: 50em; */
+  }
+  :placeholder-shown{
+    text-align: center; 
+    font-size: 12px;
+    color: black;
+  }
+  .about-text{
+    padding-left: 15px;
+    padding-right: 50px;
+  }
+  .or{
+    font-size: 20px;
+    font-weight: 700;
+    color: black;
+    text-align: center;
+  }
+  .bottom{
+    padding-top: 25em;
+  }
+  .black{
+    color: black;
+    font-size: 35px;
+  }
+  .widen{
+    width:69%;
+  }
+  .info{
+    text-align: left;
+  }
+  .info_list{
+    width: 60em;
+    height: 30em ;
+  }
+  .span{
+    font-size: 25px;
+
+  }
+  .qbody{
+    text-align: left;
+    padding: 25px 15px 25px 25px; 
+  }
+  .option{
+  align-items: flex-start ;
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 25px;
+  color:white
+  }
+  .question{
+    font-size: 25px;
+    font-weight: 900;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  }
+.user{
+  width: 25px;
+  height: 25px;
+}
+.wdth{
+  width: 88px;
+}
+.icons{
+  display: flex;
+  padding-bottom: 13em;
+ 
+}
+
+/* Aboutus */
+
+  .aboutback{
+    background-color: #0f99c8;
+    color: pink ;
+    font-size: 19px;
+    text-align: center; 
+    color: white;
+    }
+  .aboutus{
+    padding-left: 0px;
+    font-size: large;
+  }
+
+/* .question */
+.score-section {
+  display: flex;
+  font-size: 23px;
+  align-items: center;
+  color: black;
+  background-color: #55787c;
+}
+
+/* QUESTION/TIMER/LEFT SECTION */
+.question-section {
+  width: 100%;
+  position: relative;
+}
+
+.question-count {
+  margin-bottom: 20px;
+}
+
+.question-count span {
+  font-size: 35px;
+  font-weight: 700;
+}
+.nav{
+  color:white;
+}
+
+.question-text {
+  margin-bottom: 12px;
+  color: aliceblue;
+  font-size: 39px;
+
+}
+
+.timer-text {
+  background: rgb(230, 153, 12);
+  padding: 15px;
+  margin-top: 20px;
+  margin-right: 20px;
+  border: 5px solid rgb(255, 189, 67);
+  border-radius: 15px;
+  text-align: center;
+}
+
+/* ANSWERS/RIGHT SECTION */
+.answer-section {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+
+  
+}
+
+.buttonspec {
+  width: 100%;
+  font-size: 16px;
+  color: #ffffff;
+  background-color: #0dcaf0;
+
+  border-radius: 15px;
+  display: flex;
+  padding: 5px;
+  justify-content: flex-start;
+  align-items: center;
+  border: 5px solid #234668;
+  cursor: pointer;
+}
+
+.correct {
+  background-color: #2f922f;
+}
+
+.incorrect {
+  background-color: #ff3333;
+}
+
+button:hover {
+  background-color: #555e7d;
+}
+
+button:focus {
+  outline: none;
+}
+
+button svg {
+  margin-right: 5px;
+}
+.instruction{
+  font-size: 20px;
+  padding-left: 28px;
+}
+
+/* examinstruction */
+.exambutton{
+  width: 13em;
+  height:50px;
+  margin-left: 2em;
+}
+
+/* contact */
+
+  .scontact{
+  padding: 4%;
+  height: 400px;
+  }
+  .col-md-3{
+  background: #778899;
+  padding: 4%;
+  border-top-left-radius: 0.5rem;
+  border-bottom-left-radius: 0.5rem;
+  }
+  .contact-info{
+  margin-top:10%;
+  }
+  .contact-info img{
+  margin-bottom: 15%;
+  }
+  .contact-info h2{
+  margin-bottom: 10%;
+  }
+  .col-md-9{
+  background: #fff;
+  padding: 3%;
+  border-top-right-radius: 0.5rem;
+  border-bottom-right-radius: 0.5rem;
+  padding-bottom: 2pc;
+  }
+  .contact-form label{
+  font-weight:600;
+  }
+  .contact-form button{
+  background: #25274d;
+  color: #fff;
+  font-weight: 600;
+  width: 25%;
+  }
+  .contact-form button:focus{
+  box-shadow:none;
+  }#img1 {
+  width: 14pc;
+  padding-right: 3pc;
+  }
+  h2,h4 { 
+      color:  solid black;
+  }
+  .fa {
+    padding: 20px;
+    font-size: 30px;
+    text-align: center;
+    text-decoration: none;
+    margin: 5px 2px;
+    border-radius: 50%;
+  }
+  
+  .fa:hover {
+      opacity: 0.7;
+  }
+  
+  .fa-facebook {
+    background: #3B5998;
+    color: white;
+    width: 68px;
+  }
+  
+  .fa-twitter {
+    background: #55ACEE;
+    color: white;
+  }
+  .fa-instagram {
+    background: #d6169d;
+    color: white;
+  }
+  .fa-google {
+    background: #dd4b39;
+    color: white;
+  }
+
+
+
+  /* //////// */
+
+
+  .wrapper {
+    max-width: 400px;
+    min-height: 500px;
+    margin: 80px auto;
+    padding: 40px 30px 30px 30px;
+    background-color: #ecf0f3;
+    border-radius: 15px;
+    width: 50em;
+}
+
+.logo {
+    width: 80px;
+    margin: auto
+}
+
+.logo img {
+    width: 100%;
+    height: 80px;
+    object-fit: cover;
+    border-radius: 20%;
+    box-shadow: 0px 0px 3px #5f5f5f, 0px 0px 0px 5px #ecf0f3, 8px 8px 15px #a7aaa7, -8px -8px 15px #fff
+}
+
+.wrapper .name {
+    font-weight: 600;
+    font-size: 1.4rem;
+    letter-spacing: 1.3px;
+    padding-left: 10px;
+    color: #555
+}
+
+.wrapper .form-field input {
+    width: 100%;
+    display: block;
+    border: none;
+    outline: none;
+    background: none;
+    font-size: 1.2rem;
+    color: #666;
+    padding: 10px 15px 10px 10px
+}
+
+.wrapper .form-field {
+    padding-left: 10px;
+    margin-bottom: 20px;
+    border-radius: 20px;
+    box-shadow: inset 8px 8px 8px #cbced1, inset -8px -8px 8px #fff
+}
+
+.wrapper .form-field .fas {
+    color: #555
+}
+
+.wrapper .btn {
+    box-shadow: none;
+    width: 100%;
+    height: 40px;
+    background-color: #03A9F4;
+    color: #fff;
+    border-radius: 25px;
+    box-shadow: 3px 3px 3px #b1b1b1, -3px -3px 3px #fff;
+    letter-spacing: 1.3px
+}
+
+.wrapper .btn:hover {
+    background-color: #039BE5
+}
+
+.wrapper a {
+    text-decoration: none;
+    font-size: 0.8rem;
+    color: #03A9F4
+}
+
+.wrapper a:hover {
+    color: #039BE5
+}
+.masthead{
+  padding-top: 23em;
+    padding-bottom: 42em;
+    background: url("./components/images/bg-masthead.jpg");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-attachment: scroll;
+    background-size: cover;
+    margin-top: -50px;
+}
+.sider{
+  width: 80%;
+  text-align: justify;
+  display: flex;
+}
